@@ -1,0 +1,31 @@
+.body{
+    display:flex;
+}
+.navbar{
+    /* display: flex; */
+    padding: 14px;
+    height: 120px;
+    width: 1680px;
+    /* margin-top: 3%; */
+    margin: 3% 1.6% ;
+    border-start-start-radius: 25px;
+    border-end-end-radius: 25px;
+    border-top: 2px solid black;
+    background-color: rgb(236, 226, 186);
+}
+.login-btn{
+    margin-left:80%;
+    margin-right: 2%;
+    padding: 7px;
+    border-radius: 12px;
+
+}
+.signup-btn{
+    margin-right: 2%;
+    padding: 7px;
+    border-radius: 12px;
+
+}
+.login-btn,.signup-btn:hover{
+    cursor: pointer;
+}
